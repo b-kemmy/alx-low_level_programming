@@ -4,9 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Calculates the last digit of a number
- * 	  and states whether it is greater than 5, equals to zero,
- * 	  or is less than 6 and not zero
+ * main - Calculates the last digit of a number and states whether it is greater than 5, equals to zero, or is less than 6 and not zero
  *
  * Return: Always 0.
  */
