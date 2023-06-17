@@ -1,9 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /* more headers goes there */
-
+#include <stdio.h>
 /* betty style doc for function main goes there */
+/**
+ * main - Calculates the last digit of a number
+ * 	  and states whether it is greater than 5, equals to zero,
+ * 	  or is less than 6 and not zero
+ *
+ * Return: Always 0.
+ */
+
 int main(void)
 {
 	int n, last_digit_of_n;
