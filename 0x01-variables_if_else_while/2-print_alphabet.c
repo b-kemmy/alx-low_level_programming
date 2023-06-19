@@ -3,7 +3,7 @@
 /**
  * main - Prints out the letters of the alphabet a-z
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 
