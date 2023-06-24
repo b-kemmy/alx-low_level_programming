@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Prints the lowercase alphbet in reverse
- * followed by a new line
+ * main - Prints numbers from 0 to 9
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	int i;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (i = 48; i = 58; i++)
 	{
 		putchar(ch);
 	}
