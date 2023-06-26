@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
  * *_strcpy - copies the string pointed to by src
@@ -9,20 +9,29 @@
  *
  * Return: the pointer to dest
  */
-char *_strcpy(char *dest, char *src)
+char* _strcpy(char* dest, const char* src);
+
+int main()
 {
-	int l = 0;
-	int x = 0;
+	char src[] = "Hello World!";
+	char dest[20];
+	_strcpy(dest, src);
+	printf("Copied string: %s\n", dest);
+	return 0;
+}
 
-	while (*(src + 1) != '\0')
-	{
-		l++;
-	}
-	for ( ; x < l ; x++)
-	{
-		dest[x] = src[x];
-	}
-	dest[l] = '\0';
+char* _strcpy(char* dest, const char* src)
+{
+	char* dest_ptr = dest;
 
-	return (dest);
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+
+	*dest = '\0';
+
+	return dest_ptr;
 }
