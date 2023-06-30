@@ -19,7 +19,7 @@ void print_number(int n)
 	{
 		print_number(n1 / 10);
 		{
-			print__number(n1 / 10);
+			print_number(n1 / 10);
 		}
 		_putchar((n1 % 10) + '0');
 	}
